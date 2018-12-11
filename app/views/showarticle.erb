@@ -1,0 +1,7 @@
+<p>You are viewing a SINGLE ARTICLE</p>
+<%= @article.title %><br>
+<%= @article.content %>
+<form action="" method="post">
+  <button type="submit" id="delete">Delete</button>
+  <input id="hidden" type="hidden" name="_method" value="DELETE">
+</form>
